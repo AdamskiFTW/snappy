@@ -1,3 +1,6 @@
+# Font Awesome
+require 'font-awesome-sass'
+
 ###
 # Compass
 ###
