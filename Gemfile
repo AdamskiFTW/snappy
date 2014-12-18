@@ -18,3 +18,6 @@ gem 'font-awesome-sass', '~> 4.2.0'
 
 # Capistrano for deployment
 gem 'capistrano', '~> 3.3.0'
+
+# Middleman imageoptim
+gem "middleman-imageoptim", "~> 0.1.4"

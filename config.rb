@@ -47,6 +47,9 @@ end
 # Helpers
 ###
 
+# Middleman imageoptim
+activate :imageoptim
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
