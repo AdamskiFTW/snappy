@@ -22,3 +22,6 @@
 
 # Ignore Capfile
 Capfile
+
+# Ignore lib directory
+/lib
