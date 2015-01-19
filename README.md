@@ -26,6 +26,10 @@ Clone into your Middleman templates folder. You can then create a new template b
 `middleman init your-project --template=snappy`
 
 ## Initialise Snappy ##
+`bundle install`
+
+This will install the required gems
+
 `rake snappy:init`
 
 This will run 'bower install' which will install the latest version of Foundation (you will need to have [Bower](http://bower.io/) installed first). It will also copy Foundations `_settings.scss` file over to your stylesheets directory for easy editing.
