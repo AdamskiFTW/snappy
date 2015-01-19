@@ -21,3 +21,6 @@ gem 'capistrano', '~> 3.3.0'
 
 # Middleman imageoptim
 gem "middleman-imageoptim", "~> 0.1.4"
+
+# Forcing SASS version to fix 3.4.6 issue with Foundation
+gem 'sass', "~>3.4.9"
