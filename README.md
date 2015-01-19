@@ -15,9 +15,11 @@ Snappy is a [Middleman](http://middlemanapp.com/) template for super fast protot
 ## Usage ##
 
 Install [Middleman](http://middlemanapp.com/)
+
 `gem install middleman`
 
-Clone into your Middleman templates folder. You can then create a new template based on Snappy with the `--template` flag with `middleman init`
+Clone into your Middleman templates folder. You can then create a new template based on Snappy with the `--template` flag.
+
 `git clone https://github.com/AdamskiFTW/snappy.git ~/.middleman/snappy`
 
 ## Create your project ##
@@ -25,10 +27,12 @@ Clone into your Middleman templates folder. You can then create a new template b
 
 ## Initialise Snappy ##
 `rake snappy:init`
+
 This will run 'bower install' which will install the latest version of Foundation (you will need to have [Bower](http://bower.io/) installed first). It will also copy Foundations `_settings.scss` file over to your stylesheets directory for easy editing.
 
 ## Initialise Capistrano ##
 `bundle exec cap install`
+
 This will create all the necessary files in your project. Feel free to skip this part if not using Capistrano for deployment. Don't forget to edit the deploy files with your server info!
 
 ## Launch Middleman ##
