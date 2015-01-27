@@ -20,7 +20,7 @@ Install [Middleman](http://middlemanapp.com/)
 
 Clone into your Middleman templates folder. You can then create a new template based on Snappy with the `--template` flag.
 
-`git clone https://github.com/AdamskiFTW/snappy.git ~/.middleman/snappy`
+`git clone https://github.com/corewebdesign/snappy.git ~/.middleman/snappy`
 
 ## Create your project ##
 `middleman init your-project --template=snappy`
