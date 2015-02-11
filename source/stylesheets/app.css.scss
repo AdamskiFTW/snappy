@@ -3,3 +3,11 @@
 @import 'font-awesome-compass';
 @import 'font-awesome';
 @import 'bourbon';
+
+* {
+  color: #fff !important;
+}
+
+body {
+  @include background(linear-gradient(#606c88, #3f4c6b));
+}
