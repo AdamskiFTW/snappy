@@ -2,6 +2,7 @@ require 'font-awesome-sass'
 
 compass_config do |config|
   config.add_import_path "bower_components/foundation/scss"
+  config.add_import_path "bower_components/bourbon/app/assets/stylesheets"
   config.http_path = "/"
   config.css_dir = "stylesheets"
   config.sass_dir = "stylesheets"

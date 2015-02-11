@@ -3,6 +3,7 @@
   "version": "0.1",
   "private": "true",
   "dependencies": {
-    "foundation": "latest"
+    "foundation": "latest",
+    "bourbon": "latest"
   }
 }

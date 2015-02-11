@@ -8,6 +8,7 @@ Snappy is a [Middleman](http://middlemanapp.com/) template for super fast protot
 * [HAML](http://haml.info/)
 * [SASS](http://sass-lang.com/)
 * [Coffeescript](http://coffeescript.org/)
+* [Bourbon](http://bourbon.io/)
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
 * [Middleman Imageoptim](https://github.com/plasticine/middleman-imageoptim)
 * [Capistrano](http://capistranorb.com/)
