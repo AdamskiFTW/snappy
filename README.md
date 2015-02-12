@@ -33,7 +33,9 @@ This will install the required gems
 
 `rake snappy:init`
 
-This will run `bower install` which will install the latest version of Foundation (you will need to have [Bower](http://bower.io/) installed first). It will also copy Foundations `_settings.scss` file over to your stylesheets directory for easy editing.
+This will run `bower install` which will install the latest version of Foundation and Bourbon (you will need to have [Bower](http://bower.io/) installed first). It will also copy Foundations `_settings.scss` file over to your stylesheets directory for easy editing.
+
+There's also a rake task to update your local template. Running `rake snappy:update` will delete the template in your ~/.middleman directory and clone the latest repo.
 
 ## Initialise Capistrano ##
 `bundle exec cap install`
