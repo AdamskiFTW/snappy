@@ -3,13 +3,14 @@
   %head
     %meta{:charset => "utf-8"}
     %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
     %title= current_page.data.title || "The Middleman"
     = stylesheet_link_tag "app"
     = javascript_include_tag "modernizr"
   %body
-  
+
     = partial "shared/header"
     = yield
     = partial "shared/footer"
-    
+
     = javascript_include_tag  "all"
