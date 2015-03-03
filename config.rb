@@ -20,8 +20,6 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
-# activate :imageoptim
-
 configure :development do
   activate :livereload
 end
@@ -29,6 +27,7 @@ end
 configure :build do
   # activate :minify_css
   # activate :minify_javascript
+  # activate :imageoptim
 end
 
 after_configuration do
