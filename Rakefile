@@ -5,7 +5,7 @@ namespace :snappy do
   task :init do
     ROOT_DIR = File.dirname(__FILE__)
     sh "bower install"
-    FileUtils.cp "#{ROOT_DIR}/source/bower_components/foundation/scss/foundation/_settings.scss", "#{ROOT_DIR}/source/stylesheets/_foundation_settings.scss"
+    FileUtils.cp "#{ROOT_DIR}/source/bower_components/foundation/scss/foundation/_settings.scss", "#{ROOT_DIR}/source/assets/stylesheets/_foundation_settings.scss"
     puts "\nSnappy is ready for editing!"
   end
 
