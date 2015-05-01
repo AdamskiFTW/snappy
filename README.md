@@ -60,4 +60,4 @@ We've created this template with Snappy prototyping in mind - any suggestions on
 
 ## License ##
 
-Created and maintained by [Core](http://wearecore.co.uk/). Distributed under the [MIT license](LICENSE).
+Created and maintained by [Core](http://wearecore.co.uk/). Distributed under the [MIT license](LICENSE.md).
