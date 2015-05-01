@@ -1,6 +1,6 @@
 {
   "name": "snappy",
-  "version": "0.1",
+  "version": "0.2",
   "private": "true",
   "dependencies": {
     "foundation": "latest",
