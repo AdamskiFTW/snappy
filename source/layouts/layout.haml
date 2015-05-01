@@ -1,16 +1,16 @@
 !!!
 %html
   %head
-    %meta{:charset => "utf-8"}
-    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
-    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
-    %title= current_page.data.title || "The Middleman"
-    = stylesheet_link_tag "app"
-    = javascript_include_tag "modernizr"
-  %body
-
-    = partial "shared/header"
+    %meta{:charset => 'utf-8'}
+    %meta{:content => 'IE=edge,chrome=1', 'http-equiv' => 'X-UA-Compatible'}
+    %meta{:content => 'width=device-width, initial-scale=1', :name => 'viewport'}
+    %meta{:name => 'description', :content => current_page.data.meta_description || data.settings.site.title}
+    %meta{:name => 'keywords', :content => current_page.data.meta_keywords || data.settings.site.title}
+    %title= current_page.data.title || 'Snappy'
+    = stylesheet_link_tag 'app'
+    = google_analytics_universal_tag
+  %body{:class => current_page.data.body_class || 'page'}
+    = partial 'header'
     = yield
-    = partial "shared/footer"
-
-    = javascript_include_tag  "all"
+    = partial 'footer'
+    = javascript_include_tag  'app'
