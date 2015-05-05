@@ -1,1 +1,1 @@
-window.app ||= {}
+window.App ||= {}
