@@ -1,4 +1,4 @@
 #= require helpers/namespace
 
-Core.foundation = ->
+App.foundation = ->
   $(document).foundation
