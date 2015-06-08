@@ -3,7 +3,7 @@ require 'font-awesome-sass'
 
 # Helper methods
 helpers do
-  
+
 end
 
 # Asset locations
@@ -30,11 +30,11 @@ end
 
 # Build specific config
 configure :build do
-  activate :minify_css
-  activate :minify_javascript
-  activate :imageoptim
-  activate :asset_hash
-  activate :gzip
+  # activate :minify_css
+  # activate :minify_javascript
+  # activate :imageoptim
+  # activate :asset_hash
+  # activate :gzip
 end
 
 after_configuration do
@@ -43,9 +43,9 @@ after_configuration do
 end
 
 # Analytics config (tracking code set in data/settings.yml)
-activate :google_analytics do |ga|
-  ga.tracking_id = data.settings.google_analytics.tracking_code
-  ga.debug = false
-  ga.development = false
-  ga.minify = true
-end
+# activate :google_analytics do |ga|
+#   ga.tracking_id = data.settings.google_analytics.tracking_code
+#   ga.debug = false
+#   ga.development = false
+#   ga.minify = true
+# end
