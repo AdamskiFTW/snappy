@@ -56,6 +56,8 @@ Gzip is enabled on build but you will need to configure your server for it to wo
 
 Bower is setup with sprockets - use it!
 
+Google Analytics is provided by the Middleman extension - this is set in the config and can be enabled in the layout files using the `google_analytics_universal_tag`, the code is already there just uncomment it if needed.
+
 We've created this template with Snappy prototyping in mind - any suggestions on how to improve it would be welcome, feel free to send a pull request! A huge thanks to the Middleman community for making all of this possible, building static sites wouldn't be half as fun without you :)
 
 ## License ##
