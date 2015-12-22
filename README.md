@@ -2,6 +2,9 @@
 
 Snappy is a [Middleman](http://middlemanapp.com/) template for super fast prototyping. Maintained by [Core](http://wearecore.co.uk/).
 
+## v4 ##
+Currently untested in Middleman v4, however there shouldn't be any major issues.
+
 ## Features ##
 
 * [ZURB Foundation](http://foundation.zurb.com/)
