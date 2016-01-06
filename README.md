@@ -3,7 +3,9 @@
 Snappy is a [Middleman](http://middlemanapp.com/) template for super fast prototyping. Maintained by [Core](http://wearecore.co.uk/).
 
 ## v4 ##
-Currently untested in Middleman v4, however there shouldn't be any major issues.
+Currently untested in Middleman v4, however there shouldn't be any major issues. You can now install a template using a Git repo in v4, as opposed to using the ~/.middleman directory. To do this with Snappy:
+
+`middleman init -T corewebdesign/snappy`
 
 ## Features ##
 
